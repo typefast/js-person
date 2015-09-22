@@ -1,0 +1,108 @@
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+	padding: 4em 0;
+}
+
+button {
+	border: none;
+	padding: .5em 1em;
+	background-color: #991111;
+	color: white;
+	letter-spacing: 1.2px;
+	border-bottom: 1px solid #555;
+	margin-top: 1em;
+}
+
+#clear {display: inline-block;}
+
+#personBody {
+	position: relative;
+	margin-top: 6em;
+	display: inline-block;
+	
+	background-color: #2277ff;
+	border-radius: 25px 25px 0 0;
+
+	height: 100px;
+	width: 80px;
+}
+
+.leftArm {
+	height: 100px;
+	width: 20px;
+	background-color: #888899;
+	border-radius: 5px;
+	position: absolute;
+	left: -20px;
+	top: 10px;
+
+}
+
+.rightArm {
+	height: 100px;
+	width: 20px;
+	background-color: #888899;
+	border-radius: 5px;
+	position: absolute;
+	right: -20px;
+	top: 10px;
+}
+
+.leftLeg {
+	height: 110px;
+	width: 25px;
+	background-color: #339b33;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	left: 0px;
+	top: 100px;
+}
+
+.rightLeg {
+	height: 110px;
+	width: 25px;
+	background-color: #339b33;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	right: 0px;
+	top: 100px;
+}
+
+.face {
+	height: 65px;
+	width: 65px;
+	background-color: #cdcdcd;
+	border-radius: 50%;
+	position: absolute;
+	top: -65px;
+	left: 10px;
+}
+
+.heart {
+	position: absolute;
+	height: 40px;
+	width: 25px;
+	background-color: #800000;
+	border-radius: 25px 25px 0 0;
+	transform: rotate(-45deg);
+
+	top: 20px;
+	left: 22.5px;
+}
+
+.heartPart {
+	position: absolute;
+	height: 40px;
+	width: 25px;
+	background-color: #800000;
+	border-radius: 25px 25px 0 0;
+	transform: rotate(45deg);
+
+	top: 20px;
+	left: 32.5px;
+}
+
+#personBody:hover > .heart {
+	background-color: #a00000;
+}
